@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+    A directory, .git, is created. It contains metadata about the files in the repository. You need to create the first commit on your own.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+    The staging area is a workspace where you can add and review multiple changes that will go into a single commit. I think it will 
+    help because you can make and undo changes without cluttering the log.
