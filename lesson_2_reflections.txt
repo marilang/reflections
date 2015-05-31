@@ -15,3 +15,12 @@ What are some situations when branches would be helpful in keeping your history 
 
     Branches would help when you are trying something experimental that you might not want to keep, or you want to make a new version of the program.
     
+How do the diagrams help you visualize the branch structure?
+
+    The diagrams show the parents of the commits and how each one can be reached.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+ 
+    When 2 branches are merged together, the changes in both branches are combined. The previous commits along both branches are accessible. 
+
+    
