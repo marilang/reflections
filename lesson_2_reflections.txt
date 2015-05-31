@@ -6,3 +6,8 @@ How is the staging area different from the working directory and the repository?
 
     The staging area is a workspace where you can add and review multiple changes that will go into a single commit. I think it will 
     help because you can make and undo changes without cluttering the log.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+    You can run git status and git diff to view the files in the staging area and the changes between those files and the ones in the last commit or the working directory. All the changes since the last commit should be for one logical change. 
+    
