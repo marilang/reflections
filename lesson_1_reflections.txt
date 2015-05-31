@@ -1,0 +1,51 @@
+How did viewing a diff between two versions of a file help you see the 
+bug that was introduced?
+
+	Viewing a diff helped because it highlights the lines that changed,
+	 cutting down the scope and speeding the process of finding the bug.
+
+How could having easy access to the entire history of a file make you a 
+more efficient programmer in the long term?
+
+	It would make it easier to track when and where changes were made, 
+	and in some cases, by whom.
+
+What do you think are the pros and cons of manually choosing when to 
+create a commit, like you do in Git, vs having versions automatically 
+saved, like Google docs does?
+
+	The benefits of a manual choice are that each commit is more likely 
+	to be a working version, and there won't be so many nearly-identical 
+	versions. The disadvantage is that you have to remember to commit at 
+	each appropriate time.
+
+Why do you think some version control systems, like Git, allow saving 
+multiple files in one commit, while others, like Google Docs, treat each 
+file separately?
+
+	Git is designed for programming, where for some applications files 
+	are closely related to each other. Google Docs is intended for a 
+	very wide audience and most files will be totally unrelated to each 
+	other, and also it is designed to be simple to use.
+
+ How can you use the commands git log and git diff to view the history 
+ of files?
+
+ 	You can use git log to view a list of commits, in order, with
+ 	messages describing the changes made in each commit. You can use 
+ 	git diff to view the specific changes, shown as added and deleted 
+ 	lines of code.
+ 	
+How might using version control make you more confident to make changes 
+that could break something?
+
+	You can always revert to a previous state, as long as there is a 
+	commit.
+
+Now that you have your workspace set up, what do you want to try using 
+Git for?
+
+    Well, I'm taking the class as a prerequisite for a training program. 
+    But I can see that the feature of repositories would be very helpful 
+    for committing changes to interdependent files and tracking them 
+    together.
