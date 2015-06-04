@@ -29,3 +29,24 @@ remote stored locally?
     the resulting code before updating the version available to others. 
     Also, if the status of the remote changes while you are working, it 
     saves the starting point of the remote branch.
+
+How would you collaborate without using Git or GitHub? What would be 
+easier, and what would be harder?
+
+    Without using Git or GitHub, or some other version control system, 
+    we might use backup directories on development machines and rely on 
+    email for communication. The initial notifications might be faster, 
+    but tracing back to find the source of a bug, or keeping changes 
+    from accumulating and interacting with each other, would be much 
+    more challenging.
+    
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+    When working on a large project with multiple users, it is important
+    to make changes in a separate branch so that you can get others'
+    feedback before the master version is changed. This results in a 
+    much more stable master branch, and makes it easier for people to 
+    work on different functions independently. Working directly in 
+    master is less complicated if you are working on a small project 
+    on your own I suppose.
+    
